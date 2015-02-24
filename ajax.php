@@ -16,7 +16,7 @@ if(isset($_POST['content'])) {
 echo $engine->render(
     $_POST['content'],
     array(
-    	'title' => 'hello world',
+    	'title' => 'Planets',
         'planets' => array(
             "Mercury",
             "Venus",
